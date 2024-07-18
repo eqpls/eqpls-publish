@@ -1,7 +1,7 @@
 const Auth = {};
 
 Auth._endpoint = new Keycloak({
-	url: 'https://eqpls.com/auth',
+	url: 'https://example.com/auth',
 	realm: 'eqpls',
 	clientId: 'openid'
 });
